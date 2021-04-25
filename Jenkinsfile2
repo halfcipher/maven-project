@@ -3,17 +3,17 @@ pipeline {
     stages {
         stage('Build') { 
             steps {
-                // 
+                echo "shubham build"
             }
         }
         stage('Test') { 
             steps {
-                // 
+                echo "shubham test" 
             }
         }
         stage('Deploy') { 
             steps {
-                // 
+                echo "shubham deploy"
             }
         }
     }
